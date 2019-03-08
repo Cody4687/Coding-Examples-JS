@@ -1,10 +1,10 @@
 function RussianRoulette() {
-let math = Math.floor(Math.random() * 7)
-if (math < 1) {
-return('You died!')
-} else {
-return('You lived!')
-}
+    let math = Math.floor(Math.random() * 7)
+    if (math < 1) {
+        return ('You died!')
+    } else {
+        return ('You lived!')
+    }
 }
 
 /*Example
